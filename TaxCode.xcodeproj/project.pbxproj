@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8496FCE91E1910080071DD66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496FCE81E1910080071DD66 /* AppDelegate.swift */; };
+		8496FCEB1E1910080071DD66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496FCEA1E1910080071DD66 /* ViewController.swift */; };
+		8496FCEE1E1910080071DD66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8496FCEC1E1910080071DD66 /* Main.storyboard */; };
+		8496FCF11E1910080071DD66 /* TaxCode.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8496FCEF1E1910080071DD66 /* TaxCode.xcdatamodeld */; };
+		8496FCF31E1910080071DD66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8496FCF21E1910080071DD66 /* Assets.xcassets */; };
+		8496FCF61E1910080071DD66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8496FCF41E1910080071DD66 /* LaunchScreen.storyboard */; };
+		8496FD011E1910080071DD66 /* TaxCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496FD001E1910080071DD66 /* TaxCodeTests.swift */; };
+		8496FD0C1E1910080071DD66 /* TaxCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496FD0B1E1910080071DD66 /* TaxCodeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8496FCFD1E1910080071DD66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8496FCDD1E1910070071DD66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8496FCE41E1910070071DD66;
+			remoteInfo = TaxCode;
+		};
+		8496FD081E1910080071DD66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8496FCDD1E1910070071DD66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8496FCE41E1910070071DD66;
+			remoteInfo = TaxCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8496FCE51E1910080071DD66 /* TaxCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8496FCE81E1910080071DD66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8496FCEA1E1910080071DD66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8496FCED1E1910080071DD66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8496FCF01E1910080071DD66 /* TaxCode.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaxCode.xcdatamodel; sourceTree = "<group>"; };
+		8496FCF21E1910080071DD66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8496FCF51E1910080071DD66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8496FCF71E1910080071DD66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8496FCFC1E1910080071DD66 /* TaxCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8496FD001E1910080071DD66 /* TaxCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCodeTests.swift; sourceTree = "<group>"; };
+		8496FD021E1910080071DD66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8496FD071E1910080071DD66 /* TaxCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8496FD0B1E1910080071DD66 /* TaxCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCodeUITests.swift; sourceTree = "<group>"; };
+		8496FD0D1E1910080071DD66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8496FCE21E1910070071DD66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8496FCF91E1910080071DD66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8496FD041E1910080071DD66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8496FCDC1E1910070071DD66 = {
+			isa = PBXGroup;
+			children = (
+				8496FCE71E1910080071DD66 /* TaxCode */,
+				8496FCFF1E1910080071DD66 /* TaxCodeTests */,
+				8496FD0A1E1910080071DD66 /* TaxCodeUITests */,
+				8496FCE61E1910080071DD66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8496FCE61E1910080071DD66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8496FCE51E1910080071DD66 /* TaxCode.app */,
+				8496FCFC1E1910080071DD66 /* TaxCodeTests.xctest */,
+				8496FD071E1910080071DD66 /* TaxCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8496FCE71E1910080071DD66 /* TaxCode */ = {
+			isa = PBXGroup;
+			children = (
+				8496FCE81E1910080071DD66 /* AppDelegate.swift */,
+				8496FCEA1E1910080071DD66 /* ViewController.swift */,
+				8496FCEC1E1910080071DD66 /* Main.storyboard */,
+				8496FCF21E1910080071DD66 /* Assets.xcassets */,
+				8496FCF41E1910080071DD66 /* LaunchScreen.storyboard */,
+				8496FCF71E1910080071DD66 /* Info.plist */,
+				8496FCEF1E1910080071DD66 /* TaxCode.xcdatamodeld */,
+			);
+			path = TaxCode;
+			sourceTree = "<group>";
+		};
+		8496FCFF1E1910080071DD66 /* TaxCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8496FD001E1910080071DD66 /* TaxCodeTests.swift */,
+				8496FD021E1910080071DD66 /* Info.plist */,
+			);
+			path = TaxCodeTests;
+			sourceTree = "<group>";
+		};
+		8496FD0A1E1910080071DD66 /* TaxCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8496FD0B1E1910080071DD66 /* TaxCodeUITests.swift */,
+				8496FD0D1E1910080071DD66 /* Info.plist */,
+			);
+			path = TaxCodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8496FCE41E1910070071DD66 /* TaxCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8496FD101E1910080071DD66 /* Build configuration list for PBXNativeTarget "TaxCode" */;
+			buildPhases = (
+				8496FCE11E1910070071DD66 /* Sources */,
+				8496FCE21E1910070071DD66 /* Frameworks */,
+				8496FCE31E1910070071DD66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaxCode;
+			productName = TaxCode;
+			productReference = 8496FCE51E1910080071DD66 /* TaxCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8496FCFB1E1910080071DD66 /* TaxCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8496FD131E1910080071DD66 /* Build configuration list for PBXNativeTarget "TaxCodeTests" */;
+			buildPhases = (
+				8496FCF81E1910080071DD66 /* Sources */,
+				8496FCF91E1910080071DD66 /* Frameworks */,
+				8496FCFA1E1910080071DD66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8496FCFE1E1910080071DD66 /* PBXTargetDependency */,
+			);
+			name = TaxCodeTests;
+			productName = TaxCodeTests;
+			productReference = 8496FCFC1E1910080071DD66 /* TaxCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8496FD061E1910080071DD66 /* TaxCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8496FD161E1910080071DD66 /* Build configuration list for PBXNativeTarget "TaxCodeUITests" */;
+			buildPhases = (
+				8496FD031E1910080071DD66 /* Sources */,
+				8496FD041E1910080071DD66 /* Frameworks */,
+				8496FD051E1910080071DD66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8496FD091E1910080071DD66 /* PBXTargetDependency */,
+			);
+			name = TaxCodeUITests;
+			productName = TaxCodeUITests;
+			productReference = 8496FD071E1910080071DD66 /* TaxCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8496FCDD1E1910070071DD66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = IncredibleDucky;
+				TargetAttributes = {
+					8496FCE41E1910070071DD66 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					8496FCFB1E1910080071DD66 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8496FCE41E1910070071DD66;
+					};
+					8496FD061E1910080071DD66 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8496FCE41E1910070071DD66;
+					};
+				};
+			};
+			buildConfigurationList = 8496FCE01E1910070071DD66 /* Build configuration list for PBXProject "TaxCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8496FCDC1E1910070071DD66;
+			productRefGroup = 8496FCE61E1910080071DD66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8496FCE41E1910070071DD66 /* TaxCode */,
+				8496FCFB1E1910080071DD66 /* TaxCodeTests */,
+				8496FD061E1910080071DD66 /* TaxCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8496FCE31E1910070071DD66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8496FCF61E1910080071DD66 /* LaunchScreen.storyboard in Resources */,
+				8496FCF31E1910080071DD66 /* Assets.xcassets in Resources */,
+				8496FCEE1E1910080071DD66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8496FCFA1E1910080071DD66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8496FD051E1910080071DD66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8496FCE11E1910070071DD66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8496FCF11E1910080071DD66 /* TaxCode.xcdatamodeld in Sources */,
+				8496FCEB1E1910080071DD66 /* ViewController.swift in Sources */,
+				8496FCE91E1910080071DD66 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8496FCF81E1910080071DD66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8496FD011E1910080071DD66 /* TaxCodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8496FD031E1910080071DD66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8496FD0C1E1910080071DD66 /* TaxCodeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8496FCFE1E1910080071DD66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8496FCE41E1910070071DD66 /* TaxCode */;
+			targetProxy = 8496FCFD1E1910080071DD66 /* PBXContainerItemProxy */;
+		};
+		8496FD091E1910080071DD66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8496FCE41E1910070071DD66 /* TaxCode */;
+			targetProxy = 8496FD081E1910080071DD66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8496FCEC1E1910080071DD66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8496FCED1E1910080071DD66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8496FCF41E1910080071DD66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8496FCF51E1910080071DD66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8496FD0E1E1910080071DD66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8496FD0F1E1910080071DD66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8496FD111E1910080071DD66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaxCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IncredibleDucky.TaxCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8496FD121E1910080071DD66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaxCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IncredibleDucky.TaxCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8496FD141E1910080071DD66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaxCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IncredibleDucky.TaxCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxCode.app/TaxCode";
+			};
+			name = Debug;
+		};
+		8496FD151E1910080071DD66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaxCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IncredibleDucky.TaxCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxCode.app/TaxCode";
+			};
+			name = Release;
+		};
+		8496FD171E1910080071DD66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TaxCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IncredibleDucky.TaxCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TaxCode;
+			};
+			name = Debug;
+		};
+		8496FD181E1910080071DD66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TaxCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IncredibleDucky.TaxCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TaxCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8496FCE01E1910070071DD66 /* Build configuration list for PBXProject "TaxCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8496FD0E1E1910080071DD66 /* Debug */,
+				8496FD0F1E1910080071DD66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8496FD101E1910080071DD66 /* Build configuration list for PBXNativeTarget "TaxCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8496FD111E1910080071DD66 /* Debug */,
+				8496FD121E1910080071DD66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8496FD131E1910080071DD66 /* Build configuration list for PBXNativeTarget "TaxCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8496FD141E1910080071DD66 /* Debug */,
+				8496FD151E1910080071DD66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8496FD161E1910080071DD66 /* Build configuration list for PBXNativeTarget "TaxCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8496FD171E1910080071DD66 /* Debug */,
+				8496FD181E1910080071DD66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8496FCEF1E1910080071DD66 /* TaxCode.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8496FCF01E1910080071DD66 /* TaxCode.xcdatamodel */,
+			);
+			currentVersion = 8496FCF01E1910080071DD66 /* TaxCode.xcdatamodel */;
+			path = TaxCode.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8496FCDD1E1910070071DD66 /* Project object */;
+}
