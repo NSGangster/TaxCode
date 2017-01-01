@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FACFD857C7B0189E9E1B0C2 /* Pods_TaxCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51DD8C3D96EE7FE18D0D8CFF /* Pods_TaxCode.framework */; };
+		842465AD1E19115B00343ECC /* p3_ar01.html in Resources */ = {isa = PBXBuildFile; fileRef = 842465AA1E19115B00343ECC /* p3_ar01.html */; };
+		842465AE1E19115B00343ECC /* PubTable.html in Resources */ = {isa = PBXBuildFile; fileRef = 842465AB1E19115B00343ECC /* PubTable.html */; };
+		842465AF1E19115B00343ECC /* testingParser.html in Resources */ = {isa = PBXBuildFile; fileRef = 842465AC1E19115B00343ECC /* testingParser.html */; };
+		842465B11E1911B500343ECC /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842465A01E19110200343ECC /* Font.swift */; };
+		842465B21E1911B500343ECC /* HTMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842465A11E19110200343ECC /* HTMLParser.swift */; };
+		842465B31E1911B500343ECC /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842465A21E19110200343ECC /* MainTableViewController.swift */; };
+		842465B41E1911B500343ECC /* PubDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842465A31E19110200343ECC /* PubDetailViewController.swift */; };
+		842465B51E1911B500343ECC /* Publication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842465A41E19110200343ECC /* Publication.swift */; };
 		8496FCE91E1910080071DD66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496FCE81E1910080071DD66 /* AppDelegate.swift */; };
 		8496FCEB1E1910080071DD66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496FCEA1E1910080071DD66 /* ViewController.swift */; };
 		8496FCEE1E1910080071DD66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8496FCEC1E1910080071DD66 /* Main.storyboard */; };
@@ -35,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51DD8C3D96EE7FE18D0D8CFF /* Pods_TaxCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaxCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		842465A01E19110200343ECC /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Font.swift; path = TaxCodeTests/Font.swift; sourceTree = SOURCE_ROOT; };
+		842465A11E19110200343ECC /* HTMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTMLParser.swift; path = TaxCodeTests/HTMLParser.swift; sourceTree = SOURCE_ROOT; };
+		842465A21E19110200343ECC /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTableViewController.swift; path = TaxCodeTests/MainTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		842465A31E19110200343ECC /* PubDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PubDetailViewController.swift; path = TaxCodeTests/PubDetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		842465A41E19110200343ECC /* Publication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Publication.swift; path = TaxCodeTests/Publication.swift; sourceTree = SOURCE_ROOT; };
+		842465AA1E19115B00343ECC /* p3_ar01.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = p3_ar01.html; sourceTree = "<group>"; };
+		842465AB1E19115B00343ECC /* PubTable.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PubTable.html; sourceTree = "<group>"; };
+		842465AC1E19115B00343ECC /* testingParser.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = testingParser.html; sourceTree = "<group>"; };
 		8496FCE51E1910080071DD66 /* TaxCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8496FCE81E1910080071DD66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8496FCEA1E1910080071DD66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +67,8 @@
 		8496FD071E1910080071DD66 /* TaxCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8496FD0B1E1910080071DD66 /* TaxCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCodeUITests.swift; sourceTree = "<group>"; };
 		8496FD0D1E1910080071DD66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB93D6A2CD03DE3036A8CF41 /* Pods-TaxCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaxCode/Pods-TaxCode.release.xcconfig"; sourceTree = "<group>"; };
+		E8E36A19FE01C05BF500A6F7 /* Pods-TaxCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaxCode/Pods-TaxCode.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FACFD857C7B0189E9E1B0C2 /* Pods_TaxCode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +97,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19FE3901B32ACCA0B7A0DC7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51DD8C3D96EE7FE18D0D8CFF /* Pods_TaxCode.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DD428DB7EB750D471C63B76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8E36A19FE01C05BF500A6F7 /* Pods-TaxCode.debug.xcconfig */,
+				CB93D6A2CD03DE3036A8CF41 /* Pods-TaxCode.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8496FCDC1E1910070071DD66 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				8496FCFF1E1910080071DD66 /* TaxCodeTests */,
 				8496FD0A1E1910080071DD66 /* TaxCodeUITests */,
 				8496FCE61E1910080071DD66 /* Products */,
+				3DD428DB7EB750D471C63B76 /* Pods */,
+				19FE3901B32ACCA0B7A0DC7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +141,14 @@
 			children = (
 				8496FCE81E1910080071DD66 /* AppDelegate.swift */,
 				8496FCEA1E1910080071DD66 /* ViewController.swift */,
+				842465A01E19110200343ECC /* Font.swift */,
+				842465AA1E19115B00343ECC /* p3_ar01.html */,
+				842465AB1E19115B00343ECC /* PubTable.html */,
+				842465AC1E19115B00343ECC /* testingParser.html */,
+				842465A11E19110200343ECC /* HTMLParser.swift */,
+				842465A21E19110200343ECC /* MainTableViewController.swift */,
+				842465A31E19110200343ECC /* PubDetailViewController.swift */,
+				842465A41E19110200343ECC /* Publication.swift */,
 				8496FCEC1E1910080071DD66 /* Main.storyboard */,
 				8496FCF21E1910080071DD66 /* Assets.xcassets */,
 				8496FCF41E1910080071DD66 /* LaunchScreen.storyboard */,
@@ -135,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8496FD101E1910080071DD66 /* Build configuration list for PBXNativeTarget "TaxCode" */;
 			buildPhases = (
+				B056BF5B06DA62A36F7F0308 /* [CP] Check Pods Manifest.lock */,
 				8496FCE11E1910070071DD66 /* Sources */,
 				8496FCE21E1910070071DD66 /* Frameworks */,
 				8496FCE31E1910070071DD66 /* Resources */,
+				0D19E214A33904440EF2FF26 /* [CP] Embed Pods Frameworks */,
+				41583FB739BDF47F4A41778C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +247,7 @@
 				TargetAttributes = {
 					8496FCE41E1910070071DD66 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZW94HASRW4;
 						ProvisioningStyle = Automatic;
 					};
 					8496FCFB1E1910080071DD66 = {
@@ -235,7 +287,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842465AF1E19115B00343ECC /* testingParser.html in Resources */,
 				8496FCF61E1910080071DD66 /* LaunchScreen.storyboard in Resources */,
+				842465AE1E19115B00343ECC /* PubTable.html in Resources */,
+				842465AD1E19115B00343ECC /* p3_ar01.html in Resources */,
 				8496FCF31E1910080071DD66 /* Assets.xcassets in Resources */,
 				8496FCEE1E1910080071DD66 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +312,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D19E214A33904440EF2FF26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaxCode/Pods-TaxCode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41583FB739BDF47F4A41778C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaxCode/Pods-TaxCode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B056BF5B06DA62A36F7F0308 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8496FCE11E1910070071DD66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842465B11E1911B500343ECC /* Font.swift in Sources */,
 				8496FCF11E1910080071DD66 /* TaxCode.xcdatamodeld in Sources */,
 				8496FCEB1E1910080071DD66 /* ViewController.swift in Sources */,
 				8496FCE91E1910080071DD66 /* AppDelegate.swift in Sources */,
+				842465B41E1911B500343ECC /* PubDetailViewController.swift in Sources */,
+				842465B31E1911B500343ECC /* MainTableViewController.swift in Sources */,
+				842465B51E1911B500343ECC /* Publication.swift in Sources */,
+				842465B21E1911B500343ECC /* HTMLParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,8 +522,11 @@
 		};
 		8496FD111E1910080071DD66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8E36A19FE01C05BF500A6F7 /* Pods-TaxCode.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZW94HASRW4;
 				INFOPLIST_FILE = TaxCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.IncredibleDucky.TaxCode;
@@ -426,8 +537,11 @@
 		};
 		8496FD121E1910080071DD66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB93D6A2CD03DE3036A8CF41 /* Pods-TaxCode.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZW94HASRW4;
 				INFOPLIST_FILE = TaxCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.IncredibleDucky.TaxCode;
@@ -509,6 +623,7 @@
 				8496FD121E1910080071DD66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8496FD131E1910080071DD66 /* Build configuration list for PBXNativeTarget "TaxCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +632,7 @@
 				8496FD151E1910080071DD66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8496FD161E1910080071DD66 /* Build configuration list for PBXNativeTarget "TaxCodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +641,7 @@
 				8496FD181E1910080071DD66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

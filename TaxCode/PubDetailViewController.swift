@@ -9,7 +9,7 @@
 import UIKit
 import Kanna
 
-class PubDetailViewController: UIViewController {
+class ViewController: UIViewController {
     
     @IBOutlet weak var scrollView: UIScrollView!
     
